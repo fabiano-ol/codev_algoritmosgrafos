@@ -1,0 +1,8 @@
+Grafo grade pxq
+1
+Elabore um algoritmo que leia dois inteiros p, q e gere um 
+grafo grade G de q linhas e p colunas, definido conforme 
+Figura 1.
+    
+Tempo: O(n+m)
+

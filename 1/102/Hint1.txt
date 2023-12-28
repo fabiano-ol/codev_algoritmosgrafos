@@ -1,0 +1,14 @@
+- Nesse exercício, você vai precisar definir um
+  grafo e adicionar arestas. Para isso, os seguintes comandos
+  podem ser úteis na solução:
+  
+  GrafoListaAdj()/GrafoMatrizAdj(): 
+      retorna um grafo vazio em lista de adjacências ou
+      matriz de adjacência
+  
+  G.DefinirN(n): 
+      define o número de vértices do grafo G para n
+  
+  G.AdicionarAresta(u,v): 
+    adiciona a aresta uv ao grafo G
+  
