@@ -1,0 +1,6 @@
+Vértices pendentes
+1
+Elabore uma função que receba um grafo em lista de adjacência 
+e retorne a quantidade de vértices pendentes (vértices de grau 1).
+
+Tempo: O(n)

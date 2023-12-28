@@ -1,0 +1,15 @@
+- Nesse exercício, você vai precisar investigar a quantidade de
+  vizinhos que certo vértice possui. Para isso, os seguintes 
+  comandos podem ser úteis na solução:
+  
+  G.V(): 
+    retorna uma lista dos vértices de G
+
+  G.N(v): 
+    retorna uma lista com os vizinhos de v
+
+  Para que a complexidade O(n) seja obtida, deve-se tomar o
+  cuidado de não varrer *toda* a lista de vizinhos de todos os
+  vértices, pois nesse caso a complexidade do algoritmo 
+  será O(n+m).
+  
