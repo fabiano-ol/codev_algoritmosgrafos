@@ -1,0 +1,10 @@
+Grafo dos múltiplos
+1
+Elabore uma função que receba um inteiro n e retorne o grafo G 
+em lista de adjacência tal que 
+
+    V(G) = {1, 2, ..., n}, e 
+    E(G) = { ij : 1 ≤ i < j ≤ n | j é múltiplo de i }.
+    
+Tempo: O(n+m)
+
