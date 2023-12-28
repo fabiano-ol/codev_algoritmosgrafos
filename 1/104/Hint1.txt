@@ -1,0 +1,12 @@
+- Nesse exercício, os seguintes comandos podem ser úteis 
+  na solução:
+  
+  G.E(): 
+    retorna lista com as arestas de G; cada aresta consiste
+    de um par (u,v) de vértices de G
+  
+  G.V(): 
+    retorna uma lista dos vértices de G
+
+  G.N(v): 
+    retorna uma lista com os vizinhos do vértice v em G

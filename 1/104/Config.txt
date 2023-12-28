@@ -1,0 +1,10 @@
+Grafo euleriano
+5
+Elabore uma função que receba um grafo conexo em lista de 
+adjacência e retorne um valor lógico indicando se o grafo 
+é euleriano. 
+
+(Dica: Teorema: Um grafo conexo é euleriano se e somente se 
+                todo vértice desse grafo possui grau par.)
+    
+Tempo: O(n+m)
