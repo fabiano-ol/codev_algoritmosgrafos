@@ -1,0 +1,6 @@
+Cliques de tamanho 4
+5
+Elabore uma função que receba um grafo em matriz de adjacência 
+e retorne o número de cliques de tamanho 4 desse grafo.
+
+Tempo: O(n^4)

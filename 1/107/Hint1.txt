@@ -1,0 +1,12 @@
+- Nesse exercício, os seguintes comandos podem ser úteis 
+  na solução:
+  
+  G.V(): 
+    retorna uma lista dos vértices de G
+
+  G.n: 
+    número de vértices de G
+
+  G.EhAresta(u,v): 
+    retorna um valor lógico indicando se (u,v) é uma
+    aresta de G
