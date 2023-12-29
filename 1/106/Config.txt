@@ -1,0 +1,7 @@
+Isoformo a um ciclo
+5
+Elabore uma função que receba um grafo em lista de adjacência 
+e retorne um valor lógico indicando se ele é isomorfo a um 
+ciclo de n vértices.
+
+Tempo: O(n) 

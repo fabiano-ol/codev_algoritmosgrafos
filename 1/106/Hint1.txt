@@ -1,0 +1,12 @@
+- Note que a complexidade requerida é O(n). Para tal, o 
+  algoritmo deverá solucionar o problema sem varrer todas 
+  as arestas.
+
+- Nesse exercício, os seguintes comandos podem ser úteis 
+  na solução:
+  
+  G.V(): 
+    retorna uma lista dos vértices de G
+
+  G.N(v): 
+    retorna uma lista com os vizinhos do vértice v em G
