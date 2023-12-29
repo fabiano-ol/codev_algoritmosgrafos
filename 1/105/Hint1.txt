@@ -1,0 +1,12 @@
+- Note que a complexidade requerida é constante. Para tal, o 
+  algoritmo deverá solucionar o problema sem varrer os vértices,
+  nem as arestas.
+
+- Nesse exercício, os seguintes comandos podem ser úteis 
+  na solução:
+  
+  G.n: 
+    número de vértices de G
+  
+  G.m: 
+    número de arestas de G

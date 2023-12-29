@@ -1,0 +1,6 @@
+Isoformo a uma árvore
+5
+Elabore uma função que receba um grafo conexo e retorne 
+um valor lógico indicando se ele é uma árvore. 
+
+Tempo: O(1)
