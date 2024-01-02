@@ -1,0 +1,8 @@
+Rotulando as arestas em triângulos
+3
+Elabore um procedimento que receba um grafo em matriz de 
+adjacência e crie um atributo a cada aresta uv associado
+a um valor lógico indicando se uv pertence ou não a um 
+triângulo.
+
+Tempo: O(n^3) 

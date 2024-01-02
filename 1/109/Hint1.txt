@@ -1,0 +1,29 @@
+- Inicialmente, rotule cada aresta do grafo a Falso.
+
+  Como a complexidade permitida é O(n^3), e o grafo é em
+  matriz de adjacência, varra cada trio de vértices de G
+  e teste para cada um deles se forma um triângulo. Se sim,
+  rotule as arestas desse triângulo ao valor Verdadeiro.  
+  
+- Nesse exercício, os seguintes comandos podem ser úteis 
+  na solução:
+  
+  G.V(): 
+    retorna uma lista dos vértices de G
+
+  G.E(): 
+    retorna lista com as arestas de G; cada aresta consiste
+    de um par (u,v) de vértices de G
+
+  G.n: 
+    número de vértices de G
+
+  G.DefinirAtrE(u, v, w): 
+    define um atributo associado à aresta uv com valor w 
+
+  G.ObterAtrE(u, v): 
+    retorna o valor do atributo associado à aresta uv
+
+  G.EhAresta(u,v): 
+    retorna um valor lógico indicando se (u,v) é uma
+    aresta de G
