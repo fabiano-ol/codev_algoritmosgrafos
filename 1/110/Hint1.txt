@@ -1,0 +1,34 @@
+- Inicialmente, rotule cada aresta do grafo a Falso.
+
+  Varra a vizinhança de v1; para cada vizinho v2, varra a 
+  vizinhança de v2; para cada vizinho v3 que não seja v1, 
+  varra a vizinhança de v3; se algum vizinho de v3 for v1, 
+  então v1,v2,v3 forma um triângulo. Sendo assim, 
+  rotule as arestas desse triângulo com o valor Verdadeiro.
+
+- Nesse exercício, os seguintes comandos podem ser úteis 
+  na solução:
+  
+  G.V(): 
+    retorna uma lista dos vértices de G
+
+  G.E(): 
+    retorna lista com as arestas de G; cada aresta consiste
+    de um par (u,v) de vértices de G
+
+  G.N(v, IterarSobreNos=True): [G em lista de adjacências]
+    retorna a lista de adjacência de v em G. Cada elemento uv
+    nessa lista é um objeto do tipo NoAresta, com atributos: 
+      uv.Viz: retorna o vértice u vizinho de v 
+      uv.e: retorna o objeto Aresta
+
+  G.n: 
+    número de vértices de G
+
+  G.DefinirAtrE(e, w): 
+    define um atributo associado à aresta e com valor w 
+
+  G.ObterAtrE(e): 
+    retorna o valor do atributo associado à aresta e
+
+
