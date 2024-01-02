@@ -1,0 +1,22 @@
+Isomorfismo
+3
+Elabore uma função que receba dois grafos G e H em lista de 
+adjacência, além de um vetor b[] que supostamente prova que 
+G e H são isomorfos. A ideia da prova é mostrar o mapeamento 
+do conjunto de vértices de G e H: o vértice v ∈ V(G) está 
+mapeado no vértice b[v] ∈ V(H). A função deve retornar um 
+valor lógico indicando se a prova dada do suposto isomorfismo 
+é válida.
+
+Tempo: O(n+m) [médio], 
+onde n = máx { |V(G)|, |V(H)| }, m = máx { |E(G)|, |E(H)| }
+
+Ex: se a entrada for 
+
+    G = 1 --- 2                  H = 5 --- 1
+        |     |                      |     |
+        3 --- 4 --- 5                2 --- 4 --- 3
+
+    b = [ 5, 1, 2, 4, 3 ], 
+
+a função deve resultar em V.

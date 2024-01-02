@@ -1,0 +1,19 @@
+- Nesse exercício, os seguintes comandos podem ser úteis 
+  na solução:
+  
+  G.V(): 
+    retorna uma lista dos vértices de G
+
+  G.n: 
+    número de vértices de G
+
+  G.N(v): 
+    retorna uma lista com os vizinhos do vértice v em G
+
+- G é isomorfo a H com mapamento v <--> b[v] se e somente se, 
+    
+    - |V(G)| = |V(H)| = |b|-1, e
+    - para todo v ∈ V(G):
+    
+        N_H(b[v]) = { b[w] : w ∈ N_G(v) }
+
