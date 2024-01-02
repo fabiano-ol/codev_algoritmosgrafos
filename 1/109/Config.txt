@@ -1,4 +1,4 @@
-Rotulando as arestas em triângulos
+Rotulando as arestas em triângulos (matriz de adjacência)
 3
 Elabore um procedimento que receba um grafo em matriz de 
 adjacência e crie um atributo a cada aresta uv associado
