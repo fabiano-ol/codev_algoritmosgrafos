@@ -1,0 +1,6 @@
+Reconhecendo uma árvore
+3
+Elabore uma função que receba um grafo G em lista de adjacência 
+e retorne um valor lógico indicando se ele é uma árvore.
+
+Tempo: O(n+m)
