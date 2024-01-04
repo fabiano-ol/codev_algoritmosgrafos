@@ -22,7 +22,6 @@ KH+7,->:-57>-
 	?014-H4-6PkQfXb
 		>?HeHkV878PQ
 		?HeH>?V~1B
-		oVw*<-:i<:mP>?Q#Om@847:),)O%HeH|:=-
 		1.Hk75876-6<-PoTH?QeeXb
 			k75876-6<-PoTH?TH+Q
 			.7:H?=H16HoVvP?THq<-:):{7*:-v7e|:=-Qb

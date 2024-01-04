@@ -1,0 +1,7 @@
+Reconhecendo um grafo bipartido
+3
+Elabore uma função que receba um grafo G como entrada 
+e retorne um valor lógico indicando se G é um grafo 
+bipartido.
+
+Tempo: O(n+m)
