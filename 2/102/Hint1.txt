@@ -1,0 +1,56 @@
+- O que representa o conjunto de vértices que são visitados 
+  por uma busca a partir do vértice 1? 
+
+- Observe o algoritmo da função BuscaCompleta(). O que 
+  representa o número de vezes que a função Busca() é
+  invocada?
+
+- Nesse exercício, os seguintes comandos podem ser úteis 
+  na solução:
+  
+  G.V(): 
+    retorna uma lista dos vértices de G
+
+  G.N(v, IterarSobreNos=True): [G em lista de adjacências]
+    retorna a lista de adjacência de v em G. Cada elemento uv
+    nessa lista é um objeto do tipo NoAresta, com atributos: 
+      uv.Viz: retorna o vértice u vizinho de v 
+      uv.e: retorna o objeto Aresta
+
+  G.DefinirAtrV(v, w): 
+    define um atributo associado ao vértice v com valor w 
+
+  G.ObterAtrV(v): 
+    retorna o valor do atributo associado ao vértice v
+
+  G.DefinirAtrE(e, w): 
+    define um atributo associado à aresta e com valor w 
+
+  G.ObterAtrE(e): 
+    retorna o valor do atributo associado à aresta e
+
+
+- Note que no algoritmo de busca em grafos, é necessário dois
+  rótulos para as arestas: um rótulo Explorada, e outro rótulo
+  Descoberta, ambos associados a valores lógicos. Como a
+  função G.DefinirAtrE(e, w) associa um único atributo de valor
+  w à aresta e, podemos associar como valor de cada aresta um
+  dicionário ou uma lista, de modo que indiretamente possamos
+  atribuir diversos valores à aresta. 
+  
+  Mais especificamente, dada uma aresta uv, podemos inicializar
+  um dicionário:
+
+    G.DefinirAtrE(uv, {})
+  
+  a essa aresta. Agora, podemos atribuir diversos valores a uv.
+  Por exemplo:
+
+     G.ObterAtrE(uv)['Descoberta'] = False
+     G.ObterAtrE(uv)['Explorada'] = False
+
+- Para implementar uma pilha, uma lista é suficiente, por meio
+  dos seguintes comandos:
+  C = []          # inicializa uma pilha vazia
+  C.append(x)     # empilha em C o elemento x
+  C.pop()         # desempilha de C o elemento topo

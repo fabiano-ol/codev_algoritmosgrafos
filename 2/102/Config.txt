@@ -1,0 +1,6 @@
+Componentes conexas
+3
+Elabore uma função que receba um grafo G como entrada e 
+retorne a quantidade de componentes conexas de G.
+
+Tempo: O(n+m)
