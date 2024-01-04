@@ -1,0 +1,36 @@
+Trocando a cor de uma porção de imagem
+3
+Em editores de desenho, é comum a operação de trocar uma 
+determinada região de uma figura de uma cor para outra. 
+Para tanto, o usuário escolhe na paleta de cores uma nova 
+cor e clica em um pixel da figura. Aquele pixel, e todos 
+os demais conectados a ele, trocam para a nova cor. Um 
+pixel é definido como conectado a outro se há um caminho 
+de segmentos horizontais e verticais conectando-os, todos 
+de mesma cor. 
+
+Elabore um procedimento que receba um natural N seguido de 
+uma tabela N × N representando os pixels de uma imagem. Cada 
+posição da tabela consiste de um natural representando a cor 
+daquele pixel. Além da imagem em forma tabular, são dados 
+também um par de naturais i,j, representando os índices de 
+um pixel dessa tabela, e um natural c representando uma nova 
+cor para esse pixel. Elabore um algoritmo que troque toda a 
+região da figura que contenha o pixel T[i][j] e pixels 
+conectados para a nova cor c. 
+
+Exemplo de entrada/saída:
+
+Entrada:           Saída: 
+N=5
+T=                    T=
+[[1 2 3 2 2],      [[1 5 3 2 2],
+ [4 2 2 1 1].       [4 5 5 1 1],
+ [4 2 2 1 1].       [4 5 5 1 1],
+ [1 1 2 2 1].       [1 1 5 5 1],
+ [2 2 2 1 2]]       [5 5 5 1 2]]
+i=1 
+j=1
+c=5
+
+Tempo: O(N^2)

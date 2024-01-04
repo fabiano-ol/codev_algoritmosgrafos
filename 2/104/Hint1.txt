@@ -1,0 +1,37 @@
+- Crie um grafo G tal que o conjunto de vértices consiste
+  dos pixels e dois vértices são adjacentes em G se
+  são da mesma cor e ortogonalmente vizinhos (consecutivos 
+  na horizontal ou vertical).
+
+- Faça uma busca a partir do vértice de coordenada (i,j).
+  Troque a cor de todos os vértices visitados para c.
+
+- Nesse exercício, os seguintes comandos podem ser úteis 
+  na solução:
+  
+  GrafoListaAdj(): 
+    retorna um grafo vazio em lista de adjacências
+
+  G.DefinirN(n): 
+    define o número de vértices do grafo G para n
+
+  G.V(): 
+    retorna uma lista dos vértices de G
+
+  G.N(v, IterarSobreNos=True): [G em lista de adjacências]
+    retorna a lista de adjacência de v em G. Cada elemento uv
+    nessa lista é um objeto do tipo NoAresta, com atributos: 
+      uv.Viz: retorna o vértice u vizinho de v 
+      uv.e: retorna o objeto Aresta
+
+  G.DefinirAtrV(v, w): 
+    define um atributo associado ao vértice v com valor w 
+
+  G.ObterAtrV(v): 
+    retorna o valor do atributo associado ao vértice v
+
+  G.DefinirAtrE(e, w): 
+    define um atributo associado à aresta e com valor w 
+
+  G.ObterAtrE(e): 
+    retorna o valor do atributo associado à aresta e
