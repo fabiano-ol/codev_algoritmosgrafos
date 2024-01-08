@@ -16,6 +16,7 @@
 - Para que a busca acima, no caso de múltiplas soluções,
   retorne o caminho lexicograficamente menor, é necessário
   que a vizinhança de cada vértice seja inserida em ordem
+  que, quando processada pela busca, resulte em uma ordem 
   lexicográfica do menor vértice para a maior.
 
 - Nesse exercício, os seguintes comandos podem ser úteis 
