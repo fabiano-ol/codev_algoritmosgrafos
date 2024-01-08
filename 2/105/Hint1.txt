@@ -1,0 +1,45 @@
+- Crie um grafo G tal que o conjunto de vértices consiste
+  das posições da tabela e (u,v) é uma aresta se o objeto
+  pode se mover em um passo da posição u para a posição v.
+
+- Ao montar o grafo, anote o vértice v que representa a 
+  posição inicial do objeto, e o vértice w que representa
+  a posição destino. 
+
+- Faça uma busca a partir de v. Verifique se w foi 
+  visitado. Se não foi, não há solução. Se foi, você deve
+  pensar uma maneira de saber qual é a sequência de 
+  vértices que vai de v a w pelas arestas de árvore da 
+  árvore de busca. (Dica: pense em anotar alguma informação
+  útil adicional aos vértices visitados.)
+
+- Para que a busca acima, no caso de múltiplas soluções,
+  retorne o caminho lexicograficamente menor, é necessário
+  que a vizinhança de cada vértice seja inserida em ordem
+  lexicográfica do menor vértice para a maior.
+
+- Nesse exercício, os seguintes comandos podem ser úteis 
+  na solução:
+  
+  GrafoListaAdj(): 
+    retorna um grafo vazio em lista de adjacências
+
+  G.DefinirN(n): 
+    define o número de vértices do grafo G para n
+
+  G.N(v, IterarSobreNos=True): [G em lista de adjacências]
+    retorna a lista de adjacência de v em G. Cada elemento uv
+    nessa lista é um objeto do tipo NoAresta, com atributos: 
+      uv.Viz: retorna o vértice u vizinho de v 
+      uv.e: retorna o objeto Aresta
+
+  G.DefinirAtrV(v, w): 
+    define um atributo associado ao vértice v com valor w 
+
+  G.ObterAtrV(v): 
+    retorna o valor do atributo associado ao vértice v
+
+  G.DefinirAtrE(e, w): 
+    define um atributo associado à aresta e com valor w 
+
+  

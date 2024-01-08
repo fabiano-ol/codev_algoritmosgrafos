@@ -1,0 +1,32 @@
+Saída do labirinto
+3
+Elabore uma função que receba um natural N seguido de uma 
+tabela N×N onde cada posição é ou "." indicando uma posição
+vazia, ou "O" indicando a presença de um obstáculo, ou "X"
+indicando um objeto, ou "@" indicando um destino. Há 
+exatamente um objeto e um destino. O objetivo é encontrar
+uma maneira de mover o objeto até o destino passando
+sequencialmente de uma posição vazia a outra na vertical
+ou horizontal. A saída (retorno da função) deve ser "S" se
+for possível, modificando a tabela substituindo as posições
+nas quais o objeto deve se movimentar por "+", ou responder
+"N" caso contrário. 
+
+Exemplos de entrada/saída:
+
+Entrada:  Saída:    Entrada:  Saída:  Entrada:  Saída:
+N=5       S	        N=5       N       N=5       S
+T=        T=        T=                T=
+[[....X], [[++++X], [[..X..],         [[...X.], [[+++X.],
+ [..OOO],  [+.OOO],  [.....],          [.....],  [++...],
+ [.....],  [+++++],  [OOOOO],          [O.OOO],  [O+OOO],
+ [OO.O.],  [OO.O+],  [.....],          [.....],  [+++++],
+ [@....]]  [@++++]]  [..@..]]          [....@]]  [+++.@]]
+
+Caso haja mais de uma possível resposta, escolha aquela em
+que a sequência de posições dos símbolos "+" seja a 
+lexicograficamente menor. Considere que a posição de um 
+símbolo "+" seja o par ordenado (linha, coluna) onde esse 
+símbolo se encontra.
+
+Tempo: O(N^2)
