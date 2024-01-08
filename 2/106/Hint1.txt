@@ -1,0 +1,34 @@
+- Crie um grafo G tal que o conjunto de vértices consiste
+  das posições da tabela e (u,v) é uma aresta se u e v
+  são ortogonalmente consecutivos na tabela (isto é, são
+  consecutivos na mesma horizontal ou vertical), e possuem
+  os bits iguais a 0. 
+
+- Modifique a BuscaCompleta para realizar uma busca a partir 
+  de cada um dos vértices 0 que estão em uma borda da tabela. 
+
+- Após todas as buscas, todos os 0's que não foram visitados
+  não estão conectados a 0's nas bordas, e portanto estão em
+  uma ilha cercados de 1's. Logo, tais 0's devem ser trocados
+  para 1's.
+
+- Nesse exercício, os seguintes comandos podem ser úteis 
+  na solução:
+  
+  GrafoListaAdj(): 
+    retorna um grafo vazio em lista de adjacências
+
+  G.DefinirN(n): 
+    define o número de vértices do grafo G para n
+
+  G.N(v, IterarSobreNos=True): [G em lista de adjacências]
+    retorna a lista de adjacência de v em G. Cada elemento uv
+    nessa lista é um objeto do tipo NoAresta, com atributos: 
+      uv.Viz: retorna o vértice u vizinho de v 
+      uv.e: retorna o objeto Aresta
+
+  G.DefinirAtrV(v, w): 
+    define um atributo associado ao vértice v com valor w 
+
+  G.ObterAtrV(v): 
+    retorna o valor do atributo associado ao vértice v

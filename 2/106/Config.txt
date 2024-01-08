@@ -1,0 +1,20 @@
+Inverter os bits 0's cercados por 1's
+3
+Elabore um procedimento que receba dois naturais N,M 
+seguidos de uma tabela binária N×M, e troque todas as 
+ocorrências de 0's que estão em ilhas de 0's completamente 
+cercadas de 1’s por todos os lados.
+
+Exemplo de entrada/saída:
+
+Entrada:        Saída:  
+N=5
+M=9
+T =             T = 
+[[001111111],   [[001111111],   
+ [100101011],   [100111111],
+ [101001011],   [101111111],
+ [110111100],   [110111100],
+ [100110111]]   [100110111]]
+
+Tempo: O(NM)
