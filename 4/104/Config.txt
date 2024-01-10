@@ -1,4 +1,4 @@
-Saída do labirinto
+Saída do labirinto (menor caminho)
 3
 Análogo ao exercício "Saída do labirinto" da lista 
 "Busca em Grafos", exceto que agora deseja-se o menor caminho 
