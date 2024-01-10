@@ -1,0 +1,36 @@
+- Crie uma cópia H do grafo G, subdividindo cada aresta (u,v)
+  de G com peso p em um caminho conectando u a v com p arestas.
+  Qual será o número de vértices de H?
+
+- Note agora que um menor caminho em arestas que conecta u a v 
+  em H, ao ter os vértices adicionados em H removidos desse
+  caminho, é um caminho de menor peso que conecta u a v em G. 
+  Assim, empregue a função de exercício anterior para determinar um 
+  menor caminho que conecta u a v em H.
+
+- Nesse exercício, os seguintes comandos podem ser úteis 
+  na solução:
+  
+  GrafoListaAdj(): 
+    retorna um grafo vazio em lista de adjacências
+
+  G.DefinirN(n): 
+    define o número de vértices do grafo G para n
+
+  G.n: 
+    número de vértices de G
+
+  G.N(v, IterarSobreNos=True): [G em lista de adjacências]
+    retorna a lista de adjacência de v em G. Cada elemento uv
+    nessa lista é um objeto do tipo NoAresta, com atributos: 
+      uv.Viz: retorna o vértice u vizinho de v 
+      uv.e: retorna o objeto Aresta
+
+  G.DefinirAtrV(v, w): 
+    define um atributo associado ao vértice v com valor w 
+
+  G.ObterAtrV(v): 
+    retorna o valor do atributo associado ao vértice v
+
+  G.ObterAtrE(e): 
+    retorna o valor do atributo associado à aresta e

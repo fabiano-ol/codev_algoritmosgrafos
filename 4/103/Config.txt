@@ -1,0 +1,9 @@
+Distância entre par de vértices (com pesos limitados)
+3
+Dados um grafo G, um par de vértices s e t, e um peso 
+inteiro entre 1 e k associado a cada aresta, elabore 
+uma função que retorne um caminho entre s e t de peso 
+mínimo. O peso de um caminho é dado pela soma dos 
+pesos associados a cada aresta do caminho.
+
+Tempo: O(k(n+m)) 
