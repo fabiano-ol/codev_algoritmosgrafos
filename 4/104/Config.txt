@@ -1,0 +1,20 @@
+Saída do labirinto
+3
+Análogo ao exercício "Saída do labirinto" da lista 
+"Busca em Grafos", exceto que agora deseja-se o menor caminho 
+entre o objeto e a saída, caso exista. Em caso da existência 
+de mais de uma possível resposta, também deve ser impresso 
+aquele lexicograficamente menor. 
+
+Exemplos de entrada/saída:
+
+Entrada:  Saída:     Entrada:  Saída:  Entrada:   Saída:
+N=5       S	         N=5	   N       N=5        S
+T=        T=
+[[....X], [[.+++X],  [[..X..],         [[...X.],  [[.++X.],
+ [..OOO],  [.+OOO],   [.....],          [.....],   [.+...],
+ [.....],  [.++..],   [OOOOO],          [O.OOO],   [O+OOO],
+ [OO.O.],  [OO+O.],   [.....],          [.....],   [.++++],
+ [@....]]  [@++..]]   [..@..]]          [....@]]   [....@]]
+
+Tempo: O(N^2)
