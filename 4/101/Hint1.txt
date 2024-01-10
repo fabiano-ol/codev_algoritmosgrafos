@@ -1,0 +1,37 @@
+- Implemente a função DeterminaDistancia(G, u, v) como uma 
+  adaptação do algoritmo de busca em largura. Nessa 
+  adaptação, use o rótulo Visitado de cada vértice para 
+  armazenar o vértice pai dele na árvore de busca. 
+  Inicialmente, coloque -1 como valor do rótulo Visitado
+  para todos os vértices, indicando a indeterminação do 
+  pai. Para a raiz, empregue o valor 0 para indicar a ausência
+  de pai.
+
+- Faça uma busca em largura a partir de u. Agora, é 
+  necessário pensar em uma maneira de saber qual é a sequência 
+  de vértices que vai de u a v pelas arestas de árvore da 
+  árvore de busca. 
+
+- Para implementar uma fila, pode-se usar a estrutura de dados
+  deque() presente em collections.deque(), com o emprego dos
+  dos seguintes comandos:
+  
+  C = deque()     # inicializa uma fila vazia
+  C.append(x)     # emfileira em C o elemento x
+  C.popleft()     # desenfileira de C o próximo elemento
+
+- Nesse exercício, os seguintes comandos podem ser úteis 
+  na solução:
+  
+  G.N(v, IterarSobreNos=True): [G em lista de adjacências]
+    retorna a lista de adjacência de v em G. Cada elemento uv
+    nessa lista é um objeto do tipo NoAresta, com atributos: 
+      uv.Viz: retorna o vértice u vizinho de v 
+      uv.e: retorna o objeto Aresta
+
+  G.DefinirAtrV(v, w): 
+    define um atributo associado ao vértice v com valor w 
+
+  G.ObterAtrV(v): 
+    retorna o valor do atributo associado ao vértice v
+  
