@@ -1,0 +1,8 @@
+Distância entre par de conjuntos (em arestas)
+3
+Elabore uma função que, dados de entrada um grafo G e dois 
+subconjuntos de vértices U, W de V(G), retorne o menor número 
+de arestas de um caminho que conecta algum vértice de U a 
+algum vértice de W, dentre todos os possíveis caminhos.
+
+Tempo: O(n+m) 

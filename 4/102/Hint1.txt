@@ -1,0 +1,22 @@
+- Crie uma cópia H do grafo G, com dois vértices adicionais.
+  Chamemos tais novos vértices de u e v. Conecte cada vértice 
+  de U a u e cada vértice de W a v.
+
+- Note agora que o menor caminho que conecta u a v em H, ao
+  ter seus extremos removidos, é um menor caminho que conecta
+  um vétice qualquer de U a um qualquer de W. Assim, 
+  empregue a função de exercício anterior para determinar um 
+  menor caminho que conecta u a v em H.
+
+- Nesse exercício, os seguintes comandos podem ser úteis 
+  na solução:
+  
+  G.N(v):
+    retorna a lista de adjacência de v em G. 
+
+  G.DefinirAtrV(v, w): 
+    define um atributo associado ao vértice v com valor w 
+
+  G.ObterAtrV(v): 
+    retorna o valor do atributo associado ao vértice v
+  
