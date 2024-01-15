@@ -1,0 +1,9 @@
+- Estude as funções 
+
+     MarcarArticulacoes()
+     EscreverArticulacoes()
+     EscreverBlocos()
+
+  e funções auxiliares no material PDF. O exercício aqui
+  solicita a implementações dessas funções ou de pequenas
+  adaptações delas.

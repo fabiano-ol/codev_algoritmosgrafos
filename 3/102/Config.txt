@@ -1,0 +1,6 @@
+Articulações e Blocos
+5
+Elabore uma função que receba um grafo e retorne o número de 
+articulações e blocos desse grafo.
+
+Tempo: O(n+m) 
