@@ -1,5 +1,5 @@
-Articulações e Blocos
-5
+Articulações e blocos
+6
 Elabore uma função que receba um grafo e retorne o número de 
 articulações e blocos desse grafo.
 
