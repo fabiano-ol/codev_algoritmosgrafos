@@ -1,0 +1,7 @@
+Diâmetro de uma árvore
+3
+Elabore uma função que receba uma árvore e retorne o diâmetro 
+dessa árvore. O diâmetro de um grafo é a maior distância sobre
+todos os pares de vértices desse grafo.
+
+Tempo: O(n) 

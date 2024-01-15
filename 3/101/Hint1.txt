@@ -1,0 +1,36 @@
+- Note que o diâmetro pode ser obtido em uma árvore enraizada 
+  binária T com o seguinte algoritmo recursivo:
+
+  função Diametro(T):
+      #retornar (altura de T, diâmetro de T)
+      se T=NULO então
+          retornar (1, 0)
+      senão
+          (h1,d1) = Diametro(T.Esq)
+          (h2,d2) = Diametro(T.Dir)
+          h = max(h1,h2)+1
+          d = max(h1+h2, d1, d2)
+          retornar (h,d)
+
+- Implemente uma adaptação do algoritmo de busca em 
+  profundidade recursivo, para processar a busca como se fosse
+  fosse um algoritmo em árvore enraizada. A adaptação consiste
+  em modificar a busca para implementar o cálculo de diâmetro
+  conforme o algoritmo anterior, em uma versão generalizada para
+  árvores não binárias.
+
+- Nesse exercício, os seguintes comandos podem ser úteis 
+  na solução:
+  
+  G.V():
+    retorna a lista de vértices de G
+    
+  G.N(v): [G em lista de adjacências]
+    retorna a lista de adjacência de v em G. 
+
+  G.DefinirAtrV(v, w): 
+    define um atributo associado ao vértice v com valor w 
+
+  G.ObterAtrV(v): 
+    retorna o valor do atributo associado ao vértice v
+  
